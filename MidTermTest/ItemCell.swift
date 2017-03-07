@@ -2,8 +2,11 @@
 //  ItemCell.swift
 //  MidTermTest
 //
-//  Created by Willian Campos on 2017-03-07.
+//  Created by Willian Campos (300879280) on 2017-03-07.
 //  Copyright © 2017 Willian Campos. All rights reserved.
+//
+//  This class represents an item cell.
+//  An item cell contains the a UITextField representing the Item name, a UILabel representing the Item quantity and a UIStepper allowing the user to change the quantity
 //
 
 import UIKit

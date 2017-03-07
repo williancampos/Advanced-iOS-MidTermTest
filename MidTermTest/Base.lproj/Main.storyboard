@@ -54,6 +54,9 @@
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <action selector="nameTextFieldChanged:" destination="Pfi-gX-qtV" eventType="editingDidEnd" id="kdO-3F-7RL"/>
+                                            </connections>
                                         </textField>
                                     </subviews>
                                     <constraints>
@@ -186,7 +189,11 @@
                             </connections>
                         </barButtonItem>
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="save" id="S6F-0o-O5s"/>
+                            <barButtonItem systemItem="save" id="S6F-0o-O5s">
+                                <connections>
+                                    <action selector="saveButtonPressed:" destination="YeO-N9-c1x" id="0fy-2E-TkC"/>
+                                </connections>
+                            </barButtonItem>
                             <barButtonItem systemItem="add" id="rFF-aQ-XQv">
                                 <connections>
                                     <action selector="addItem:" destination="YeO-N9-c1x" id="W0g-cX-6Lz"/>
